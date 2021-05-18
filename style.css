@@ -1,0 +1,65 @@
+.col-4 {
+    text-align: center;
+    margin: 20px 0px;
+    padding: auto 10px;
+}
+
+#enlarged-image {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+
+    /* Source: https://www.w3schools.com/css/css3_2dtransforms.asp */
+    transform: translate(-50%, -50%);
+
+    visibility: hidden;
+}
+
+.col-12 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+img {
+    height: 100px;
+    width: 150px;
+}
+
+img:hover {
+    border: 3px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button {
+    visibility: hidden;
+}
+
+#left-button {
+    position: absolute;
+    top: 250px;
+    left: 20px;
+}
+
+#right-button {
+    position: absolute;
+    top: 250px;
+    right: 20px;
+}
+
+#close-button {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+
+button:hover {
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+button:focus {
+
+    /* Source: https://www.w3schools.com/cssref/pr_outline.asp */
+    outline: none;
+}

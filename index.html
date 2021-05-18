@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Image Gallery (Assignment 7 - CSE204)
+        </title>
+        <meta name="author" content="Ian Youth">
+        <meta name="description" content="Image Gallery">
+
+        <!-- Source: class lecture -->
+        <meta name="viewport" content="width-device-width, initial-scale=1, maximum-scale=1">
+
+        <!--Source: https://www.bootstrapcdn.com/-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+            crossorigin="anonymous">
+
+        <link href="style.css" type="text/css" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Bootstrap documentation: https://getbootstrap.com/docs/4.0/layout/grid/ -->
+        <img src="empty_image.jpg" alt="Enlarged Image" id="enlarged-image">
+
+        <!-- Symbols copied/pasted from an online search -->
+        <button id="left-button">
+            ← Previous Image
+        </button>
+        <button id="right-button">
+            Next Image →
+        </button>
+        <button id="close-button">
+            Close
+        </button>
+
+        <!-- First row of images -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <img class="small-image" src="chess1.jpg" alt="First Chess Image" id="chess1">
+                </div>
+                <div class="col-4">
+                    <img class="small-image" src="chess2.jpg" alt="Second Chess Image">
+                </div>
+                <div class="col-4">
+                    <img class="small-image" src="chess3.jpg" alt="Third Chess Image">
+                </div>
+            </div>
+        </div>
+
+        <!-- Second row of images -->
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <img class="small-image" src="chess4.jpg" alt="Fourth Chess Image">
+                </div>
+                <div class="col-4">
+                    <img class="small-image" src="chess5.jpg" alt="Fifth Chess Image">
+                </div>
+                <div class="col-4">
+                    <img class="small-image" src="chess6.jpg" alt="Sixth Chess Image">
+                </div>
+            </div>
+        </div>
+
+        <!-- Third row of images -->
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <img class="small-image" src="chess7.jpg" alt="Seventh Chess Image">
+                </div>
+                <div class="col-4">
+                    <img class="small-image" src="chess8.jpg" alt="Eighth Chess Image">
+                </div>
+                <div class="col-4">
+                    <img class="small-image" src="chess9.jpg" alt="Ninth Chess Image">
+                </div>
+            </div>
+        </div>
+
+        <!-- Fourth row of images -->
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <img class="small-image" src="chess10.jpg" alt="Tenth Chess Image">
+                </div>
+                <div class="col-4">
+                    <img class="small-image" src="chess11.jpg" alt="Eleventh Chess Image">
+                </div>
+                <div class="col-4">
+                    <img class="small-image" src="chess12.jpg" alt="Twelfth Chess Image">
+                </div>
+            </div>
+        </div>
+
+        <!-- JavaScript! -->
+        <script src="script.js"></script>
+    </body>
+</html>
